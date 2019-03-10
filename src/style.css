@@ -1,0 +1,43 @@
+.user-details {
+  visibility: visible;
+  width: 250px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  overflow: auto;
+  position: absolute;
+  top: 90%;
+  left: 18%;
+  margin-left: -75px;
+  z-index: 1;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.user_data {
+  position: relative;
+}
+
+.sorter {
+  cursor: pointer;
+}
+
+.tshow {
+  display: table-footer-group;
+}
+
+.tHide {
+  display: none;
+}
+
+#search {
+  width: 100%;
+}
+
+th {
+  width: 14%;
+  vertical-align: top !important;
+}

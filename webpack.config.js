@@ -13,6 +13,17 @@ module.exports = {
       template: "./src/index.html"
     })
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]
+      }
+    ]
+  },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     open: true,
